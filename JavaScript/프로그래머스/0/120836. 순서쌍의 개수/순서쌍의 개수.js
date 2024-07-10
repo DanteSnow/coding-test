@@ -12,17 +12,48 @@
 //     return answer;
 // }
 
+// function solution(n) {
+//     let answer = 0;
+    
+//     for (let i = 1; i <= Math.sqrt(n); i++) {
+//        if (n % i === 0) {
+//            if (i * i === n) {
+//                answer ++;
+//            } else {
+//            answer += 2;
+//            }
+//        }
+//     }
+    
+//     return answer;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function solution(n) {
     let answer = 0;
     
     for (let i = 1; i <= Math.sqrt(n); i++) {
-       if (n % i === 0) {
-           if (i * i === n) {
-               answer ++;
-           } else {
-           answer += 2;
-           }
-       }
+        
+        if (i === Math.sqrt(n)) {
+            answer ++;
+        } else if (n % i === 0) {
+            answer += 2;
+        }
     }
     
     return answer;
