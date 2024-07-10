@@ -7,7 +7,24 @@
 //         .reduce((a,b) => a+b);
 // }
 
+// function solution(my_string) {
+//     const numbers = my_string.match(/\d/g);
+//     return numbers.map(Number).reduce((a, b) => a + b);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
 function solution(my_string) {
-    const numbers = my_string.match(/\d/g);
+    const numbers = my_string.match(/\d/g)
     return numbers.map(Number).reduce((a, b) => a + b);
 }
