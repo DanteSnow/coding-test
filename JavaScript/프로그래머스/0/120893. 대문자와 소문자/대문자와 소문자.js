@@ -1,11 +1,47 @@
+// function solution(my_string) {
+//     let answer = ""
+    
+//     for (let i of my_string) {
+//         if (i === i.toUpperCase()) {
+//             answer += i.toLowerCase()
+//         } else {
+//             answer += i.toUpperCase()
+//         }
+//     }
+    
+//     return answer;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function solution(my_string) {
-    let answer = ""
+    let answer = "";
     
     for (let i of my_string) {
         if (i === i.toUpperCase()) {
-            answer += i.toLowerCase()
+            answer += i.toLowerCase();
         } else {
-            answer += i.toUpperCase()
+            answer += i.toUpperCase();
         }
     }
     
