@@ -1,3 +1,1 @@
-function solution(num_str) {
-    return num_str.split("").map(Number).reduce((a, b) => a + b);
-}
+const solution = (num_str) => num_str.split("").reduce((a, c) => +a + +c);
