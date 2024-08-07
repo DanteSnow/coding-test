@@ -1,0 +1,1 @@
+const solution = names => names.filter((name, index) => index % 5 === 0);
